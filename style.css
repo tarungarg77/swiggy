@@ -1,0 +1,453 @@
+/* *{ 
+    box-sizing: border-box;
+margin:0;
+padding:0;
+} */
+body{
+
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.397)),url("back.jpg");
+    background-position: center;
+   height: 45rem;
+   width: 85rem;
+   background-size: 100% 100%; 
+overflow-x:hidden;
+}
+.textbox{
+position: absolute;
+top:40%;
+left: 10%;
+color: blanchedalmond;
+font-size: 0.25rem;
+letter-spacing: 0.25rem;
+word-spacing: 0.3rem;
+}
+.a1 a:link,.a1 a:visited{
+background:#2ecc71;
+color: white;
+font-size: 1.1rem;
+margin-right: 3rem; 
+text-decoration: none;
+border-radius: 50px;
+ height:100px;
+width: 30px;  
+padding: 0.6rem;
+}
+.a2 a{
+background-color :transparent;
+color: #2ecc71;
+font-size: 1.1rem;
+text-decoration: none;
+ border-radius: 50px;
+  height:40px;
+width: 20px; 
+padding: 0.7rem;
+border: 0.2rem solid #2ecc71;
+ margin: 1.2rem; 
+word-spacing: 0.5rem;
+
+}
+.section{
+    display: flex;
+}
+.a1 a:hover,.a1 a:active{
+    transform: scale(1.2);
+    background-color: green;
+}
+.a2 a:hover,.a2 a:active{
+    transform: scale(1.2);
+    background-color: #2ecc71;
+    color: antiquewhite;
+}
+.links a{
+/* position: absolute; */
+/* top :10%; */
+/* left :70%; */
+text-align: end;
+float:right;
+
+text-decoration: none;
+color: black;
+word-spacing: 0.2rem;
+padding: 1.2rem;
+font-size: 1.2rem;
+color: white;
+margin-right: 0.7rem;
+}
+
+.links a:hover,.links a:active{
+
+border-bottom: 1.5px solid #2ecc71;
+padding-bottom: 0.5rem;
+
+
+}
+.a1:hover,.a1:active{
+
+    transform: scale(1.2);
+}
+.a2:hover,.a2:active{
+    transform: scale(1.2)
+}
+
+.icons {
+    display: flex;
+    text-align: center;
+    padding: 3rem;
+    }
+.icons i{
+    color: #2ecc71;
+}
+.main{
+    padding: 1rem;
+}
+.iphone{
+    margin-left: 15rem;
+}
+.both{
+margin-top: 4%;    
+  display: flex;
+  
+}
+
+.pp{
+display: flex;
+margin-right: 10rem;
+text-align: left;
+margin-left: -10px;
+
+}
+.ff{
+    border: 0.2rem solid #2ecc71;
+    border-radius: 50%;
+    padding :20px;
+   color: #2ecc71; 
+    
+}
+.how{
+    margin-top: 7%;
+}
+
+.pp p{
+    padding: 0.5rem;
+    
+}
+
+
+
+.mddata{
+    padding: 1.5rem;
+}
+.imageb{
+    text-align:end;
+    margin-right: 20rem;
+    margin-top: -4rem;
+
+}
+.c1{
+    display:flex;
+    font-size: 1.2rem;
+    
+}
+.c2{
+    display: flex;
+    font-size: 1.2rem;
+}
+.c3{
+    display: flex;
+    font-size: 1.2rem;
+}
+.img{
+   display: flex; 
+   margin: 2rem;
+   text-align: center;
+}
+.image1{
+    padding: 7%;
+}
+.image1 img{
+    width: 95%;
+    height: 50%;
+}
+
+   
+
+.c1 i{
+    color: #2ecc71;
+    margin-right: 0.5cm;
+}
+.c2 i{
+    color: #2ecc71;
+    margin-right: 0.5cm;
+    
+}
+.c3 i{
+    color: #2ecc71;
+    margin-right: 0.5cm;
+    
+}
+
+.c3 a{
+    text-decoration: none;
+}
+.back{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.617),rgba(0, 0, 0, 0.87)),url("tarun.jpg");
+background-position: center;
+background-size: 100% 100%;
+height:110vh;
+
+}
+.back h2{
+    
+    color: bisque;
+    padding-top: 2cm;
+    font-size: 1cm;
+
+}
+
+
+
+.whole{
+    display: flex;
+}
+.whole {
+    color: bisque;
+    text-align: center
+}
+.whole div i{
+    float: left;
+    margin-left: 2.5cm;
+    margin-top: 2cm;
+}
+.whole img{
+    float: left;
+    border-radius: 50%;
+    height: 10%;
+    width: 15%;
+    margin-left: 4cm;
+    margin-top: -1.5cm;
+}
+.whole p{
+    text-align: left;
+    font-style: italic;
+    padding: 2cm;
+}
+.slide
+{
+
+color: black;
+margin-top: 1cm;
+display:flex;
+padding: 1.5cm;
+padding-right: 2cm;
+
+
+}
+
+
+.sec1
+{
+    background-color: white;
+    margin-left: 1cm;
+    border-radius: 8%;
+
+    padding: 2cm;
+}
+.heading h1{
+    padding-top: 2.5cm;
+    color: #2ecc71;
+}
+.heading{
+    background-color: lightgray;
+}
+.b1 h1{
+    padding-top: -2cm;
+}
+.sec3
+{
+    background-color: white;
+    padding: 2cm;
+    border-radius: 8%;
+    margin-left: 1cm;
+    
+}.sec2
+{
+    background-color: white;
+     padding: 2cm; 
+    border-radius: 8%;
+    margin-left: 1cm;
+    margin-bottom: 2cm;
+}
+
+
+.sec1 i{
+    color: darkgreen;
+
+}
+.sec2 i{
+    
+    color: darkgreen;
+} 
+.sec3 i{
+    color: darkgreen;
+}
+.sec1 h3{
+    margin-top: -1.5cm;
+}
+.sec2 h3{
+    margin-top: -1.5cm;
+}
+.sec3 h3{
+    margin-top: -1.5cm;
+}
+.b1 h1{
+    margin-top: -3cm; 
+}
+.b1 p{
+    margin-top: 1cm;
+}
+
+.b1{
+    display: flex;
+    text-align: left;
+}
+.cl{
+    font-size: 1cm;
+    margin-bottom: -1.7cm;
+    
+}
+.sec1 p{
+    color: #2ecc71;
+    margin: 1.2rem;
+    margin-left: 0.2cm;
+    
+
+}
+.sec2 p{
+    color: #2ecc71;
+    margin: 1.2rem;
+    margin-left: 0.2cm;
+    
+
+
+}
+.sec3 p{
+    color: #2ecc71;
+    margin: 1.2rem; 
+      margin-left: 0.2cm;  
+}
+    
+    
+
+
+    .b2{
+        /* border:1px solid black; */
+        text-align: left;
+    }
+ .ss{
+     margin-left: -1cm;
+ }
+ .ss2{
+     margin-left: -0.5cm;
+
+    }
+.entry{
+    display: flex;
+    padding: 0.3cm;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    
+}
+.entrytext{
+    padding: 1cm;
+    width: 50%;
+    text-align: center;
+    border-radius: 5%;
+}
+input [type="text"],input[type="email"]select,textarea{
+    border-radius: 4%;
+    width: 100%;
+    padding: 8cm;
+    margin-bottom: 3%;
+
+}
+textarea{
+    height: 7rem;
+    width: 5cm;
+}
+.a3 a{
+    background-color :transparent;
+    color: #2ecc71;
+    font-size: 1.1rem;
+    text-decoration: none;
+     border-radius: 50px;
+      
+     
+    padding: 0.7rem;
+    border: 0.2rem solid #2ecc71;
+    display: inline;
+     
+    word-spacing: 0.5rem;
+    
+    }
+    .a3{
+        margin :1cm;
+        text-align: center;
+    }
+    .a3 a:hover,.a3 a:active{
+        transform: scale(1.2);
+        background-color: #2ecc71;
+        color: antiquewhite;}
+
+footer{
+    background-color: black;
+}
+.ft a{
+    text-decoration: none;
+    color: wheat;
+    text-align: center;
+    padding: 0.5cm;
+    font-size: 1.2rem;
+    padding-top: 0.5cm;
+    
+}
+.ic {
+    padding-top: 0.5cm;
+    display: flex;
+    margin-left: 12cm;
+    
+}
+.ic i{
+    color: white;
+    padding-right: 1cm;
+    display: inline-block;
+   
+}
+.ic i:hover,.ic i:active{
+    transform: scale(1.2);
+
+}
+
+.wh{
+    display: flex;
+}
+.ft a:hover,.ft a:active{
+    transform: scale(1.2);
+
+}
+.ls{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 0.5cm;
+    padding-bottom: 0.3cm;
+}
+.ft{
+    padding-top: 0.3cm;
+    
+}
+.ft a{
+    display:inline-block;
+}
