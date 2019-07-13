@@ -8,7 +8,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 header{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.397)),url("back.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.397)),url("./img/back.jpg");
     background-position: center;
    height: 45rem;
    width: 85rem;
@@ -193,7 +193,7 @@ margin-left: -10px;
     text-decoration: none;
 }
 .back{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.617),rgba(0, 0, 0, 0.87)),url("tarun.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.617),rgba(0, 0, 0, 0.87)),url("./img/tarun.jpg");
 background-position: center;
 background-size: 100% 100%;
 height:110vh;
